@@ -10,22 +10,20 @@ This document details the process of building the latest Microsoft WSL2 (Windows
 
 ### Installation Instructions
 
-There are two methods to download and run the build script:
+There are two methods to download and execute the build script:
 
-- **Download and Execution Methods:**
+- Direct:
+  ```sh
+  curl -Lso build-kernel.sh https://wsl.optimizethis.net
+  sudo bash build-kernel.sh
+  ```
 
-  - Download and execute the script in one step:
-    ```sh
-    curl -Lso build-kernel.sh https://wsl.optimizethis.net
-    sudo bash build-kernel.sh
-    ```
-  
-  - Clone the repository and execute the build script:
-    ```sh
-    git clone https://github.com/slyfox1186/wsl2-kernel-build-script.git
-    cd wsl2-kernel-build-script
-    sudo bash build-kernel.sh
-    ```
+- Git Clone:
+  ```sh
+  git clone https://github.com/slyfox1186/wsl2-kernel-build-script.git
+  cd wsl2-kernel-build-script
+  sudo bash build-kernel.sh
+  ```
 
 - **Download Link for the Script:**
 
